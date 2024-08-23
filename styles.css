@@ -1,0 +1,103 @@
+/* styles.css */
+
+/* General styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    /* Font style */
+    background-color: #f4f4f9;
+    /* Light background color */
+    display: flex;
+    /* Flexbox layout for centering content */
+    justify-content: center;
+    /* Center content horizontally */
+    align-items: center;
+    /* Center content vertically */
+    height: 100vh;
+    /* Full viewport height */
+    margin: 0;
+    /* Remove default margin */
+}
+
+/* Container for the age calculator */
+.container {
+    background: #fff;
+    /* White background for the container */
+    padding: 20px;
+    /* Padding inside the container */
+    border-radius: 8px;
+    /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Shadow effect */
+    text-align: center;
+    /* Center text */
+}
+
+/* Heading style */
+h1 {
+    margin-bottom: 20px;
+    /* Space below the heading */
+}
+
+/* Form styles */
+form {
+    margin-bottom: 20px;
+    /* Space below the form */
+}
+
+/* Label style */
+label {
+    display: block;
+    /* Block level for spacing */
+    margin-bottom: 10px;
+    /* Space below the label */
+    font-weight: bold;
+    /* Bold text */
+}
+
+/* Input field for date */
+input[type="date"] {
+    padding: 10px;
+    /* Padding inside the input field */
+    border: 1px solid #ddd;
+    /* Light border */
+    border-radius: 4px;
+    /* Rounded corners */
+    width: 100%;
+    /* Full width of the container */
+    box-sizing: border-box;
+    /* Include padding in width */
+}
+
+/* Button styles */
+button {
+    padding: 10px 20px;
+    /* Padding inside the button */
+    border: none;
+    /* Remove border */
+    border-radius: 4px;
+    /* Rounded corners */
+    background-color: #007bff;
+    /* Blue background color */
+    color: #fff;
+    /* White text color */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    font-size: 16px;
+    /* Font size */
+    margin-top: 5px;
+
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3;
+    /* Darker blue on hover */
+}
+
+/* Result display */
+#result {
+    font-size: 18px;
+    /* Font size for the result */
+    font-weight: bold;
+    /* Bold text */
+}
