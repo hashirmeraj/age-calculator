@@ -1,4 +1,3 @@
-// script.js
 
 // Add event listener for form submission
 document.getElementById('ageForm').addEventListener('submit', function (event) {
@@ -17,6 +16,7 @@ document.getElementById('ageForm').addEventListener('submit', function (event) {
         return;
     }
 
+    
     // Calculate the age
     let age = today.getFullYear() - dob.getFullYear();
     const monthDifference = today.getMonth() - dob.getMonth();
